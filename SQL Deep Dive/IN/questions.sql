@@ -5,7 +5,7 @@
 */
 
 SELECT * FROM orders;
-
+WHERE CUSTOMER IN( 7888,1082,12808,9263)
 
 /*
 * DB: World
@@ -14,3 +14,4 @@ SELECT * FROM orders;
 */
 
 SELECT * FROM city;
+WHERE CITIES IN( Zuid-Holland, Nord-Brabant, Utrecht)
